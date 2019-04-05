@@ -1,0 +1,12 @@
+img {
+    width: 60px;
+    height: 60px;
+}
+
+h1 {
+   text-align: center;
+   background-color: yellowgreen;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

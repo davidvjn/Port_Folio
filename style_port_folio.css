@@ -10,3 +10,42 @@ h1 {
    margin-right: auto;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+main h1:first-child {
+    background-color: rgb(14, 212, 212);
+}
+
+header img {
+    vertical-align: middle;
+}
+
+.année {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main h1 img {
+    width: 90px;
+    height: 70px;
+    vertical-align: middle;
+}
+
+li img {
+    width: 150px;
+    height: 70px;
+    vertical-align: middle;
+    border: 1px solid yellowgreen;
+}
+
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(6, 44, 82, 0.801);
+}
+
+ul {
+    background-color: rgb(14, 212, 212);
+}
+main h1:nth-child(3) img {
+    width: 120px;
+    height: 70px;
+}

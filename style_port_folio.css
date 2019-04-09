@@ -1,14 +1,23 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
 img {
     width: 60px;
     height: 60px;
 }
 
-h1 {
+.titre {
    text-align: center;
-   background-color: yellowgreen;
    margin-left: auto;
    margin-right: auto;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1 {
+    background-color: yellowgreen;
 }
 
 main h1:first-child {
@@ -19,9 +28,33 @@ header img {
     vertical-align: middle;
 }
 
+h3 {
+    text-align: center;
+    background-color: rgb(222, 245, 176);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.état_civil {
+   text-align: center;
+   background-color:  rgb(222, 245, 176);
+   margin-left: auto;
+   margin-right: auto;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    background-color:  rgb(222, 245, 176);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .année {
     font-weight: bold;
     text-decoration: underline;
+    background-color: rgb(14, 212, 212);
 }
 
 main h1 img {
@@ -35,17 +68,24 @@ li img {
     height: 70px;
     vertical-align: middle;
     border: 1px solid yellowgreen;
+    background-color: rgb(14, 212, 212);
 }
 
 li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgba(6, 44, 82, 0.801);
+    background-color: rgb(14, 212, 212);
 }
 
 ul {
     background-color: rgb(14, 212, 212);
 }
+
 main h1:nth-child(3) img {
     width: 120px;
     height: 70px;
+}
+
+main h1:nth-child(3) {
+    background-color: rgb(212, 14, 169);
 }

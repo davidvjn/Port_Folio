@@ -16,6 +16,13 @@ img {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.objectif {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header h1 {
     background-color: yellowgreen;
 }
@@ -26,6 +33,10 @@ main h1:first-child {
 
 header img {
     vertical-align: middle;
+}
+
+#keep_calm {
+    background-image: url(keep_calm.png);
 }
 
 h3 {

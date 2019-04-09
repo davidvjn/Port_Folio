@@ -18,11 +18,6 @@ header {
     
 }
 
-main {
-    height: 50vh;
-    background-color: #f1f1f1;
-}
-
 h1 img {
     height: 90px;
     width: 80px;
@@ -35,17 +30,24 @@ h1 img {
     background-color: rgb(230, 7, 7);
 }
 
-.objectif {
+.skills {
+    height: 80vh;
     text-align: center;
-    margin: auto;
-    font-size: 4em;
+}
+
+#gauche {
+    text-align: center;
+    justify-content: left;
 }
 
 .soft_skills {
     background-image: url(soft_skills.jpeg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: contain;
-    text-align: center;
-    height: 80%;
+    height: 700px;
+    width: 500px;
+}
+
+.container {
+    height: 50vh;
 }

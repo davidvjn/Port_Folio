@@ -1,102 +1,51 @@
 * {
-    background-color: black;
     margin: 0;
     padding: 0;
 }
 
-img {
-    width: 60px;
-    height: 60px;
-}
-
-.titre {
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.objectif {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-header h1 {
-    background-color: yellowgreen;
-}
-
-main h1:first-child {
-    background-color: rgb(14, 212, 212);
-}
-
-header img {
-    vertical-align: middle;
+header {
+    height: 50vh;
 }
 
 #keep_calm {
     background-image: url(keep_calm.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #3271b4;
+    height: 100%;
+    width: 100%;
+    
 }
 
-h3 {
+main {
+    height: 50vh;
+    background-color: #f1f1f1;
+}
+
+h1 img {
+    height: 90px;
+    width: 80px;
+}
+
+.titre {
     text-align: center;
-    background-color: rgb(222, 245, 176);
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    font-size: 4em;
+    background-color: rgb(230, 7, 7);
 }
 
-.état_civil {
-   text-align: center;
-   background-color:  rgb(222, 245, 176);
-   margin-left: auto;
-   margin-right: auto;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-div {
-    background-color:  rgb(222, 245, 176);
-    margin-left: auto;
-    margin-right: auto;
+.objectif {
     text-align: center;
+    margin: auto;
+    font-size: 4em;
 }
 
-.année {
-    font-weight: bold;
-    text-decoration: underline;
-    background-color: rgb(14, 212, 212);
-}
-
-main h1 img {
-    width: 90px;
-    height: 70px;
-    vertical-align: middle;
-}
-
-li img {
-    width: 150px;
-    height: 70px;
-    vertical-align: middle;
-    border: 1px solid yellowgreen;
-    background-color: rgb(14, 212, 212);
-}
-
-li {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgba(6, 44, 82, 0.801);
-    background-color: rgb(14, 212, 212);
-}
-
-ul {
-    background-color: rgb(14, 212, 212);
-}
-
-main h1:nth-child(3) img {
-    width: 120px;
-    height: 70px;
-}
-
-main h1:nth-child(3) {
-    background-color: rgb(212, 14, 169);
+.soft_skills {
+    background-image: url(soft_skills.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    height: 80%;
 }

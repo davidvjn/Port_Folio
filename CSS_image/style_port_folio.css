@@ -36,18 +36,61 @@ h1 img {
 }
 
 #gauche {
-    text-align: center;
-    justify-content: left;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 280%;
+    margin-left: -5cm;
+    margin-top: 1.5cm;
+    text-decoration: underline red solid;
 }
 
 .soft_skills {
     background-image: url(soft_skills.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 700px;
+    height: 300px;
     width: 500px;
+}
+
+#droite {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 280%;
+    margin-right: -5cm;
+    margin-top: 1.5cm;
+    text-decoration: underline red solid;
 }
 
 .container {
     height: 50vh;
+}
+
+#gauche2 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 200%;
+    margin-left: -5cm;
+    margin-top: 2cm;
+    text-decoration: underline rgb(56, 176, 231);
+}
+
+.hard_skills {
+    background-image: url(hard_skills.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 530px;
+    width: 350px;
+}
+
+#droite2 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 250%;
+    margin-right: -5cm;
+    margin-top: 3cm;
+    text-decoration: underline rgb(47, 127, 233);
 }

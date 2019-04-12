@@ -4,7 +4,7 @@
 }
 
 header {
-    height: 50vh;
+    height: 60vh;
 }
 
 #keep_calm {
@@ -28,6 +28,17 @@ h1 img {
     width: 100%;
     font-size: 4em;
     background-color: rgb(230, 7, 7);
+    -webkit-animation: titre 10s;
+}
+
+@-webkit-keyframes titre {
+    0% {
+        transform: translate(-800px);
+    }
+
+    50% {
+        transform: translate(1900px);
+    }
 }
 
 .skills {
@@ -43,14 +54,20 @@ h1 img {
     margin-left: -5cm;
     margin-top: 1.5cm;
     text-decoration: underline red solid;
+    color: #7F7E7E;
+}
+
+.col-md-auto {
+    height: 300px;
+    width: 500px;
 }
 
 .soft_skills {
-    background-image: url(soft_skills.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 300px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
 }
 
 #droite {
@@ -61,10 +78,11 @@ h1 img {
     margin-right: -5cm;
     margin-top: 1.5cm;
     text-decoration: underline red solid;
+    color: #7F7E7E;
 }
 
 .container {
-    height: 50vh;
+    height: 60vh;
 }
 
 #gauche2 {
@@ -75,14 +93,15 @@ h1 img {
     margin-left: -5cm;
     margin-top: 2cm;
     text-decoration: underline rgb(56, 176, 231);
+    color: #7F7E7E;
 }
 
 .hard_skills {
-    background-image: url(hard_skills.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 530px;
-    width: 350px;
+    height: 300px;
+    width: 470px;
+    border: 1px solid blue;
 }
 
 #droite2 {
@@ -93,4 +112,9 @@ h1 img {
     margin-right: -5cm;
     margin-top: 3cm;
     text-decoration: underline rgb(47, 127, 233);
+    color: #7F7E7E;
+}
+
+body {
+    background-image: url(dark-triangles.png);
 }

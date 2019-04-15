@@ -4,7 +4,7 @@
 }
 
 #keep_calm {
-    background-image: url(keep_calm.png);
+    background-image: url(../images/keep_calm.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -38,7 +38,7 @@ h1 img{
 }
 
 body {
-    background-image: url(dark-triangles.png);
+    background-image: url(../images/dark-triangles.png);
 }
 
 .skills {
@@ -144,12 +144,13 @@ ul {
     color: gray;
     text-align: center;
     align-content: center;
+    margin-left: -1cm;
 }
 
 li {
     display: block;
     color: gray;
-    font-size: 1.5em;
+    font-size: 1.7em;
     text-align: justify;
     align-content: center;
 }
@@ -159,7 +160,13 @@ h3 img {
     width: 120px;
 }
 
+li a {
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+}
+
 a img {
-    height: 4cm;
-    width: 7cm;
+    height: 3cm;
+    width: 5cm;
+
 }

@@ -9,7 +9,7 @@
     background-position: center;
     background-size: contain;
     background-color: #3271b4;
-    height: 87vh;
+    height: 86vh;
     width: 100%;
     
 }
@@ -99,7 +99,7 @@ body {
 .hard_skills {
     background-repeat: no-repeat;
     background-size: contain;
-    height: 300px;
+    height: 270px;
     width: 470px;
     border: 1px solid blue;
 }
@@ -131,6 +131,10 @@ h3 {
     font-size: 4em;
     background-color: rgb(52, 125, 235);
     -webkit-animation: titre 10s;
+}
+
+li img {
+    border: 1px solid orangered;
 }
 
 .état_civil {
@@ -168,5 +172,51 @@ li a {
 a img {
     height: 3cm;
     width: 5cm;
+}
 
+#parcours {
+    display: block;
+    color: gray;
+    text-align: center;
+    align-content: center;
+    margin-left: -1.5cm;
+    margin-right: -1.5cm;
+}
+
+.parcours {
+    display: block;
+    color: rgba(167, 164, 164, 0.438);
+    font-size: 1.7em;
+    text-align: justify;
+    align-content: center;
+}
+
+#monoprix {
+    height: 2.5cm;
+    width: 3.52cm;
+    margin-left: 0.5cm;
+}
+
+#grand_frais {
+    height: 2.5cm;
+    width: 3.52cm;
+    margin-left: 0.17cm;
+}
+
+#intermarché {
+    height: 2.5cm;
+    width: 3.52cm;
+}
+
+#bcs {
+    height: 2.5cm;
+    width: 3.51cm;
+    margin-left: -0.08cm;
+}
+
+#rond_point {
+    height: 2.5cm;
+    width: 3.51cm;
+    margin-left: 0.67cm;
+    margin-right: 0.5cm;
 }

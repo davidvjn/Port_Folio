@@ -144,11 +144,11 @@ li img {
 }
 
 ul {
-    display: block;
+    display: inline-block;
     color: gray;
     text-align: center;
     align-content: center;
-    margin-left: -1cm;
+    margin-left: -2cm;
 }
 
 li {
@@ -175,11 +175,11 @@ a img {
 }
 
 #parcours {
-    display: block;
+    display: inline-block;
     color: gray;
     text-align: center;
     align-content: center;
-    margin-left: -1.5cm;
+    margin-left: -3cm;
     margin-right: -1.5cm;
 }
 
@@ -194,7 +194,7 @@ a img {
 #monoprix {
     height: 2.5cm;
     width: 3.52cm;
-    margin-left: 0.5cm;
+    margin-left: 0.55cm;
 }
 
 #grand_frais {
@@ -206,12 +206,13 @@ a img {
 #intermarché {
     height: 2.5cm;
     width: 3.52cm;
+    margin-left: -0.1cm;
 }
 
 #bcs {
     height: 2.5cm;
     width: 3.51cm;
-    margin-left: -0.08cm;
+    margin-left: -0.09cm;
 }
 
 #rond_point {

@@ -82,7 +82,7 @@ body {
 }
 
 .container {
-    height: 50vh;
+    height: 60vh;
 }
 
 #gauche2 {
@@ -126,8 +126,7 @@ h3 {
 
 .titre {
     text-align: center;
-    width: 100%;
-    width: 30em;
+    width: 32em;
     font-size: 4em;
     background-color: rgb(52, 125, 235);
     -webkit-animation: titre 10s;

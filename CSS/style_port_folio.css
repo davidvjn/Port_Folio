@@ -3,13 +3,42 @@
     padding: 0;
 }
 
+#navigation {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    background-color: rgb(150, 85, 12);
+    height: 1cm;
+    width: 100%;
+}
+
+#accueil {
+    display: flex;
+    background-color: rgb(150, 85, 12);
+}
+
+button {
+    height: 1cm;
+    width: 8cm;
+    border-radius: 15px;
+    font-size: 0.6cm;
+    margin-left: 4.3cm;
+}
+
+button a {
+    color: rgb(150, 85, 12);
+    border: grey;
+    font-weight: bold;
+}
+
 #keep_calm {
     background-image: url(../images/keep_calm.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-color: #3271b4;
-    height: 86vh;
+    height: 88vh;
     width: 100%;
     
 }
@@ -126,8 +155,8 @@ h3 {
 
 .titre {
     text-align: center;
-    width: 32em;
-    font-size: 4em;
+    width: 34em;
+    font-size: 3.5em;
     background-color: rgb(52, 125, 235);
     -webkit-animation: titre 10s;
 }
@@ -144,7 +173,7 @@ li img {
 
 ul {
     display: inline-block;
-    color: gray;
+    color: rgb(141, 131, 131);
     text-align: center;
     align-content: center;
     margin-left: -2cm;
@@ -152,7 +181,7 @@ ul {
 
 li {
     display: block;
-    color: gray;
+    color: rgb(141, 131, 131);
     font-size: 1.7em;
     text-align: justify;
     align-content: center;
@@ -175,7 +204,7 @@ a img {
 
 #parcours {
     display: inline-block;
-    color: gray;
+    color: rgb(141, 131, 131);
     text-align: center;
     align-content: center;
     margin-left: -3cm;

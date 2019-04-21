@@ -7,29 +7,34 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    display: flex;
-    background-color: rgb(150, 85, 12);
-    height: 1cm;
+    display: inline-block;
+    /*background-color: rgb(150, 85, 12);*/
+    height: 1.2cm;
     width: 100%;
+    margin-left: 2cm;
 }
 
 #accueil {
     display: flex;
-    background-color: rgb(150, 85, 12);
+    /*background-color: rgb(150, 85, 12);*/
+    width: 100%;
+    align-content: center;
 }
 
 button {
     height: 1cm;
-    width: 8cm;
+    width: 6cm;
     border-radius: 15px;
-    font-size: 0.6cm;
-    margin-left: 4.3cm;
+    font-size: 0.5cm;
+    margin: auto;
+    position: relative;
 }
 
 button a {
     color: rgb(150, 85, 12);
     border: grey;
     font-weight: bold;
+    display: inline-flex;
 }
 
 #keep_calm {
@@ -40,7 +45,6 @@ button a {
     background-color: #3271b4;
     height: 88vh;
     width: 100%;
-    
 }
 
 h1 img{
@@ -71,7 +75,7 @@ body {
 }
 
 .skills {
-    height: 60vh;
+    height: 80vhvh;
     text-align: center;
 }
 
@@ -111,7 +115,7 @@ body {
 }
 
 .container {
-    height: 60vh;
+    height: 90vh;
 }
 
 #gauche2 {

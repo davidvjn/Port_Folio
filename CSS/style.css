@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    font-family: "Abril Fatface";
+}
+
+#keep_calm {
+    background-image: url(../images/keep_calm.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #3271b4;
+    height: 70vh;
+    width: 100%;
+}
+
+#navigation {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+#accueil {
+    display: flex;
+    background-color: rgb(231, 164, 87);
+    width: 100%;
+    height: 1cm;
+    align-content: center;
+    text-align: center;
+    border-radius: 20%;
+}
+
+h2 {
+  background-color: #EACEAE;
+  text-align: center;
+  height: 30vh;
+  widows: 100vh;
+  font-family: "Abril Fatface";
+}
+
+/* button {
+    height: 1cm;
+    width: 5cm;
+    border-radius: 20px;
+    font-size: 0.6cm;
+    margin: center;
+    color: rgb(231, 164, 87);
+    /* border: rgb(214, 140, 28); */
+    /* font-weight: bold; */
+    /* align-content: center; */
+} */
+
+.david {
+    text-align: center;
+    height: 30vh;
+    width: 100vh;
+    font-size: 3.5em;
+    background-color: #EACEAE;
+}
+
+.photo_dv {
+    height: 90%;
+    width: 15%;
+}
+
+body {
+    color: #333;
+    font-family: "Raleway", Arial, Helvetica, serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    background: url(http://josetxu.com/img/fondo_blanco.png) repeat 0 0 #fff;
+  }
+  
+h1 {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 5% 0;
+    padding: 0.5em;
+    margin: 0 0 5% 0;
+  }
+
+main {
+  background-color: rgb(196, 148, 101);
+}  
+
+#diplomes {
+  height: 100vh;
+  width: 100%;
+}
+
+  .cardBox {
+    float: left;
+    font-size: 1.2em;
+    margin: 1% 0 0 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 23.7%;
+  }
+  
+  .cardBox:hover .card {
+    transform: rotateY( 180deg);
+  }
+  
+  .card {
+    background: #222;
+    cursor: default;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+  }
+  
+  .card p {
+    margin-bottom: 1.8em;
+  }
+  
+  .card .front,
+  .card .back {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 1.2em;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card .front strong {
+    background: #fff;
+    border-radius: 100%;
+    /* color: #222; */
+    font-size: 1.5em;
+    line-height: 30px;
+    padding: 0 7px 4px 6px;
+  }
+  
+  .card .back {
+    transform: rotateY( 180deg);
+    background: rgb(236, 204, 171);
+  }
+  
+  .card .back a {
+    padding: 0.3em 0.5em;
+    /* background: #333; */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1px;
+    font-size: 0.9em;
+    transition: all 0.2s ease 0s;
+  }
+  
+  .card .back a:hover {
+    /* background: #fff; */
+    color: rgba(158, 152, 152, 0.486);
+    text-shadow: 0 0 1px #333;
+  }
+  
+  .cardBox:nth-child(1) .card .back {
+    background: rgb(236, 204, 171);
+    /* background: rgba(116, 113, 113, 0.459); */
+  }
+
+  .logo_etudes1 {
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .cardBox:nth-child(2) .card .back {
+    background: rgb(236, 204, 171);
+  }
+  
+  .logo_etudes2 {
+    width: 70%;
+    height: 50%;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .cardBox:nth-child(3) .card .back {
+    background: rgb(236, 204, 171);
+  }
+  
+  .cardBox:nth-child(5) .card .back {
+    background: rgb(236, 204, 171);
+  }
+  
+  .cardBox:nth-child(2) .card {
+    -webkit-animation: giro 1.5s 1;
+    animation: giro 1.5s 1;
+  }
+  
+  .cardBox:nth-child(3) .card {
+    -webkit-animation: giro 2s 1;
+    animation: giro 2s 1;
+  }
+  
+  .cardBox:nth-child(4) .card {
+    -webkit-animation: giro 2.5s 1;
+    animation: giro 2.5s 1;
+  }
+  
+  @-webkit-keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  
+  @keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .cardBox {
+      margin-left: 2.8%;
+      margin-top: 3%;
+      width: 46%;
+    }
+    .card {
+      height: 285px;
+    }
+    .cardBox:last-child {
+      margin-bottom: 3%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .cardBox {
+      width: 94.5%;
+    }
+    .card {
+      height: 260px;
+    }
+  }

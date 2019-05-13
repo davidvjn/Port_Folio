@@ -5,26 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="./CSS/style_port_folio.css" rel="stylesheet">
+    <!-- <link href="./CSS/ancien_style.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Port Folio David VENJON</title>
 </head>
 <body>
     <header>
-        <nav id=navigation>
+        <nav id="navigation">
             <ul id="accueil">
-                <li id="accueil"><button><a href="#Bienvenue">Bienvenue</a></button></li>
-                <li id="accueil"><button><a href="#Skills">My skills</a></button></li>   
-                <li id="accueil"><button><a href="#Diplômes">Mes diplômes</a></button></li>
-                <li id="accueil"><button><a href="#Expérience">Mon expérience</a></button></li>
+                <li id="accueil"><a href="#bienvenue"><h3>Bienvenue</h3></a></li>
+                <li id="accueil"><a a href="#skills"><h3>My skills</h3></a></li>   
+                <li id="accueil"><a a href="#diplomes"><h3>Mes diplômes</h3></a></li>
+                <li id="accueil"><a a href="#expérience"><h3>Mon expérience</h3></a</li>
             </ul>
         </nav>
-        <div id="Bienvenue"></div>
-        <div id="keep_calm"></div>
-        <div id="Skills"></div>
-        <h1 class="david"><img src="./images/perso_question.jpg" alt="question"></img> DAVID VENJON <img src="./images/perso_question.jpg" alt="question"></img></h1>
+        <section id="bienvenue">
+          <div id="keep_calm"></div>
+          <h2 class="david"><img class="photo_dv" src="./images/image_dv_gimp.jpg" alt="question"></img> DAVID VENJON <img class="photo_dv" src="./images/image_dv_gimp.jpg" alt="question"></img></h2>
+        </section>
     </header>
     <main>
-        <div class="skills">
+        <section id="diplomes">
+          <br>
+          <br>
+          <h1>Diplômes et Formations</h1>
+
+            <div class="boxesContainer">
+            
+              <div class="cardBox">
+                <div class="card">
+                  <div class="front">
+                    <!-- <h3>Card One</h3> -->
+                    <p>2019</p>
+                    <p>DEVELOPPEUR APPLICATION WEB ET MOBILE</p>
+                    <strong>&#x21bb;</strong>
+                  </div>
+                  <div class="back">
+                    <!--  <h3>Back Side One</h3>
+                      <p>Content in card one</p> -->
+                    <a href="https://www.it-akademy.fr/" target="_blank"><img class="logo_etudes1" src="images/it_akademy.png"><h3>IT-Akademy</h3></a>
+                    <!-- <a href="#">Compétences acquises</a> -->
+                  </div>
+                </div>
+              </div>
+            
+              <div class="cardBox">
+                <div class="card">
+                  <div class="front">
+                    <!-- <h3>Card Two</h3> -->
+                    <p>2003</p>
+                    <p>TECHNICIEN SUPERIEUR DU COMMERCE option Grande Distribution</p>
+                    <strong>&#x21bb;</strong>
+                  </div>
+                  <div class="back">
+                    <!--  <h3>Back Side Two</h3>
+                      <p>Content in card two</p> -->
+                    <a href="http://www.ccicampus.fr/" target=_blank><img class="logo_etudes2" src="./images/cci_strasbourg.jpg" alt="Chambre de Commerce de Strasbourg"><h3>Chambre de Commerce de Strasbourg</h3></img></a>
+                    <!-- <a href="#">Button 2</a> -->
+                  </div>
+                </div>
+              </div>
+            
+              <div class="cardBox">
+                <div class="card">
+                  <div class="front">
+                    <!-- <h3>Card Three</h3> -->
+                    <p>2001</p>
+                    <p>BACCALAUREAT Sciences et Techniques du Tertiaire option ACC (commerce)</p>
+                    <strong>&#x21bb;</strong>
+                  </div>
+                  <div class="back">
+                    <!-- <h3>Back Side Three</h3>
+                    <p>Content in card three</p> -->
+                    <a href="http://www.lyc-monnet-strasbourg.ac-strasbourg.fr/" target=_blank> <img class="logo_etudes2" src="./images/jean_monnet.jpg" alt="Lycée Jean Monnet Strasbourg"><h3>Lycée Jean Monnet</h3></img>
+                    <!-- <a href="#">Button 3</a> -->
+                  </div>
+                </div>
+              </div>
+            
+              <div class="cardBox">
+                <div class="card">
+                  <div class="front">
+                    <!-- <h3>Card Four</h3> -->
+                    <p>1997</p>
+                    <p>BREVET DES COLLEGES</p>
+                    <strong>&#x21bb;</strong>
+                  </div>
+                  <div class="back">
+                    <!-- <h3>Back Side Four</h3>
+                    <p>Content in card four</p> -->
+                    <a href="http://www.leonarddevinci.org/" target=_blank><img class="logo_etudes2" src="./images/léonard_de_vinci.jpg" alt="Collège Léonard de Vinci"><h3>Collège Léonard de Vinci</h3></img></a>
+                    <!-- <a href="#">Button 4</a> -->
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+        </section>
+        
+        <section id="skils">
+            <h2 class=""><img class="photo_dv" src="./images/image_dv_gimp.jpg" alt="question"></img> DAVID VENJON <img class="photo_dv" src="./images/image_dv_gimp.jpg" alt="question"></img></h2>
+
+        </section>
+        <!--.boxesContainer-->
+ <!--       <a href="skills">
             <div class="container">
                 <div class="row justify-content-md-center">
                     <div class="col col-lg">
@@ -70,34 +155,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="container">
-            <br>
-            <h3 class="titre"><img src="./images/état_civil.png"> Mon état civil <img src="./images/état_civil.png"></h3>
-            <div id="état_civil">
-                <br>
-                <p class="état_civil">35 ans, 2 enfants (garde assurée), région lyonnaise</p>
-                <br>
-                <br>
-                <br>
-            </div>
-            <br>
-            <div id="Diplômes"></div>
-            <br>
-            <h3 class="titre"><img src="./images/diplôme.jpg" alt="diplôme"></img> Mes études <img src="./images/diplôme.jpg" alt="diplôme"></img></h3>
-                <ul>
-                    <br>
-                    <li>2019<a href="https://www.it-akademy.fr/" target=_blank> <img src="./images/it_akademy.png" alt="IT Akademy"></img></a>Développeur application web et mobile</li>
-                    <li>2003<a href="http://www.ccicampus.fr/" target=_blank> <img src="./images/cci_strasbourg.jpg" alt="Chambre de Commerce de Strasbourg"></img></a>Technicien Supérieur du Commerce option Grande Distribution </li>
-                    <li>2001<a href="http://www.lyc-monnet-strasbourg.ac-strasbourg.fr/" target=_blank> <img src="./images/jean_monnet.jpg" alt="Lycée Jean Monnet Strasbourg"></img></a>Baccalauréat STT ACC (Sciences et Techniques du Tertiaire Commerce) </li>
-                    <li>1997<a href="http://www.leonarddevinci.org/" target=_blank> <img src="./images/léonard_de_vinci.jpg" alt="Collège Léonard de Vinci"></img></a>Brevet des collèges</li>
-                    <br>
-                    <br>
-                </ul>
-            <br>
-            <br>
-            <br>
-            <div id="Expérience"></div>
+            <a href="expérience">
             <h3 class="titre"><img src="./images/travail.jpg" alt="travail"></img> Mon parcours professionnel <img src="./images/travail.jpg" alt="travail"></img></h3>
                 <ul id="parcours">
                     <br>
@@ -109,10 +169,12 @@
                     <br>
                     <br>
                 </ul>
+            </div>
         </div>
     </main>
     <footer>
         
     </footer>
+    
 </body>
 </html>

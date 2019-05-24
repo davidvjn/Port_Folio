@@ -9,7 +9,7 @@
     background-position: center;
     background-size: contain;
     background-color: #3271b4;
-    height: 70vh;
+    height: 65vh;
     width: 100%;
 }
 
@@ -32,8 +32,8 @@
 h2 {
   background-color: #EACEAE;
   text-align: center;
-  height: 30vh;
-  widows: 100vh;
+  height: 35vh;
+  width: 100vh;
   font-family: "Abril Fatface", "Comic Sans MS", cursive;
 }
 
@@ -47,20 +47,73 @@ h2 {
     /* border: rgb(214, 140, 28); */
     /* font-weight: bold; */
     /* align-content: center; */
-} */
+/* }  */
 
 .david {
     text-align: center;
+    align-content: center;
     height: 30vh;
-    width: 100vh;
-    font-size: 3.5em;
+    width: 100%;
+    font-size: 2.5em;
     background-color: #EACEAE;
+    font-weight: bold;
 }
 
 .photo_dv {
     height: 90%;
     width: 15%;
 }
+
+#skills {
+  text-align: center;
+}
+
+#html {
+  text-align: center;
+} 
+
+.droiche {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* h6 {
+  text-align: center;  
+} */
+
+.droite {
+  display: flex;
+  flex-direction: column;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gauche {
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.progress {
+  width: 70vh;
+  /* margin-left: auto;
+  margin-right: auto;
+  text-align: center; */
+}
+
+section img {
+  height: 9vh;
+  width: 9vh;
+}
+
+/* #git {
+  width: 10%;
+} */
 
 body {
     color: #333;
@@ -259,4 +312,3 @@ img {
   list-style-type: none;
   margin-left: 10%;
 }
-

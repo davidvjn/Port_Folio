@@ -112,7 +112,8 @@ section img {
 }
 
 /* #git {
-  width: 10%;
+  width: 8%;
+  height: 8%;
 } */
 
 body {
@@ -181,6 +182,7 @@ main {
   padding: 0.8em;
   position: absolute;
   text-align: center;
+  justify-content: center;
   width: 100%;
 }
   
@@ -259,13 +261,14 @@ main {
   -webkit-animation: giro 2.5s 1;
   animation: giro 2.5s 1;
 }
-  
+
 @-webkit-keyframes giro {
   from {
     transform: rotateY( 180deg);
   }
   to {
-    transform: rotateY( 0deg);
+    transform: 
+    rotateY( 0deg);
   }
 }
   
@@ -301,9 +304,20 @@ main {
   }
 }
 
-img {
+li img {
   height: 2cm;
-  width: 4cm;
+  width: 4.5cm;
+}
+
+#lienCv {
+  text-align: center;
+  justify-content: center;
+  margin-top: 30%;
+  border: 2px solid blueviolet;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 50%;
+  background-color: #EACEAE
 }
 
 .parcours {
@@ -311,4 +325,18 @@ img {
   justify-content: center;
   list-style-type: none;
   margin-left: 10%;
+}
+
+ul {
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+}
+
+li {
+  font-size: 2em;
+}
+
+.atouts {
+  height: 100vh;
 }

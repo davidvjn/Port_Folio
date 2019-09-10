@@ -1,0 +1,117 @@
+/* Ecrans jusqu'à 1280px */
+@media screen and (max-width: 1280px)
+{
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* adapter les sections à la largeur de l'écran de l'utilisateur */
+    #navigation, #diplomes, #skills, #experience, main, .atouts {
+        width: 100vw;
+    }
+
+    /* adapter la barre de navigation à l'écran */
+    #accueil {
+        align-items: center;
+        justify-items: center;
+        width: 97%;
+    }
+
+    /* réduction de la police des grandes sections */
+    h1 {
+        font-size: 1.5em;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #accueil h3 {
+        font-size: 0.30em;
+   }
+
+   /* adaptation des symobles "Zelda" */
+   .photo_dv {
+       height: 20%;
+       width: 20%;
+   }
+
+   /* masquage d'un logo "Zelda" */
+   .photo_dv:nth-child(2) {
+       display: none;
+       /* opacity: 0; */
+   }
+   
+   .david {
+       font-size: 1.5em;
+    }
+    
+    /* disposer la section en colonne pour le responsive */
+    #skills {
+        flex-direction: column;
+    }
+    
+    /* adapter les barres de connaissance à l'écran */
+    .progress {
+        width: 70%;
+    }
+
+    #diplomes {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    /* flip cards */
+    .boxesContainer {
+        align-items: center;
+        justify-items: center;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .droiche {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    #lienCv {
+        display: flex;  
+        width: 50vw;
+    }
+
+    #experience, #parcours {
+        width: 99vw;
+    }
+
+    /* masquage des images dans le titre "mon parcours professionnel" */
+    h1 img {
+        display: none;
+    }
+
+    /* réduction des images du parcours professionnel */
+    #monoprix, #grand_frais, #intermarché, #bcs, #rond_point, #match {
+        height: 20%;
+        width: 20%;
+    }
+
+    /* adapter la police à l'écran pour la section parcours professionnel */
+    li h3 {
+        font-size: .25em;
+        font-weight: bold;
+    }
+
+    h6 {
+        font-size: 0.2em;
+    }
+
+    .atouts ul {
+        font-size: 0.7em;
+        margin: 0;
+        padding: 0;
+    }
+
+    .atouts ul li {
+        align-items: center;
+        justify-items: center;
+    }
+}
